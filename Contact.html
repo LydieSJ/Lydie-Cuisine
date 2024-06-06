@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="AcceuilStyle.css">
+<link rel="stylesheet" type="text/css" href="ContactStyle.css">
+</head>
+<body>
+
+    <div class="header">
+      <h1>La Cuisine de Lydie</h1>
+      <p>La <b>Cuisine</b> Haitienne</p>
+    </div>
+    
+    <div class="navbar">
+        <a href="Acceuil.html" class="active">Accueil</a>
+        <a href="Media.html">Media</a>
+        <a href="Liens.html">Liens d'intérets</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="Contact.html" class="right">Contact</a>
+    </div>
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contactez-Nous</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="ContactImage.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Nom</label>
+        <input type="text" id="fname" name="firstname" placeholder=" Nom..">
+        <label for="lname">Prénom</label>
+        <input type="text" id="lname" name="lastname" placeholder=" Prénom..">
+        <label for="country">Pays</label>
+        <select id="country" name="country">
+          <option value="australia">France</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Sujet</label>
+        <textarea id="subject" name="subject" placeholder="Écrire...." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer">
+    <h2>Copiright@Lydie St Jean</h2>
+  </div>
+</body>
+</html>
